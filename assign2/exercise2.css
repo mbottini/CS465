@@ -162,3 +162,21 @@ a.thumbnail-subtext {
     font-size: 12px;
     display: block;
 }
+
+br.thumbnail-break {
+    clear: left;
+}
+
+h1#us-news-boast {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    color: #4f4d4d;
+}
+
+p#us-news-subboast {
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+    color: #4f4d4d;
+}
