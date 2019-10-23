@@ -1,0 +1,14 @@
+body {
+    background-color: #ddd
+}
+
+article {
+    background-color: #fff;
+    max-width: 600px;
+    margin: auto;
+    padding: 2em;
+}
+
+article > * {
+    padding: 1em;
+}
