@@ -1,0 +1,40 @@
+p {
+    height: 100%;
+    margin: auto;
+    padding: 1em;
+    color: white;
+    font-family: sans-serif;
+}
+
+.row {
+    height: 50px;
+}
+
+.row > * {
+    height:100%;
+    padding: 2px 1px;
+}
+
+p.div-navy {
+    background-color: navy;
+}
+
+p.div-purple {
+    background-color: purple;
+}
+
+p.div-darkcyan {
+    background-color: darkcyan;
+}
+
+p.div-yellowgreen {
+    background-color: yellowgreen;
+}
+
+p.div-salmon {
+    background-color: salmon;
+}
+
+p.div-green {
+    background-color: green;
+}
