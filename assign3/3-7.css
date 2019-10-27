@@ -55,7 +55,7 @@ div.exercise-5 {
     background-color: rgb(68, 68, 68);
     color: white;
     padding: 1em;
-    border-radius: 3divx;
+    border-radius: 3px;
 }
 
 div.exercise-5-one {
@@ -81,4 +81,45 @@ div.exercise-5-four {
 div.exercise-5-five {
     grid-column: 4;
     grid-row: 3;
+}
+
+div.exercise-6-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(2, 100px) repeat(3, 50px);
+    gap: 5px;
+    max-width: 900px;
+    margin: auto;
+}
+
+div.exercise-6 {
+    background-color: rgb(68, 68, 68);
+    color: white;
+    padding: 1em;
+    border-radius: 3px;
+}
+
+div.exercise-6-one {
+    grid-column: 1;
+    grid-row: 1 / 5;
+}
+
+div.exercise-6-two {
+    grid-column: 2;
+    grid-row: 1 / 3;
+}
+
+div.exercise-6-three {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+div.exercise-6-four {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+div.exercise-6-five {
+    grid-column: 1 / 3;
+    grid-row: 5;
 }
