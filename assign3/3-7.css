@@ -14,3 +14,30 @@ p.exercise-3 {
 div.exercise-3 {
     height: 100px;
 }
+
+div.flex-row {
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+}
+
+p.exercise-4 {
+    height: 100%;
+    margin: 3px;
+    background-color: rgb(68, 68, 68);
+    color: white;
+    padding: 1em;
+    border-radius: 3px;
+}
+
+p.exercise-4-single {
+    flex: 1;
+}
+
+p.exercise-4-double {
+    flex: 2;
+}
+
+span.padding-exercise-4 {
+    padding:3px;
+}
