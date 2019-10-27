@@ -1,0 +1,16 @@
+p.exercise-3 {
+    height: 100%;
+    margin: auto;
+    background-color: rgb(68, 68, 68);
+    color: white;
+    padding: 1em;
+    border-radius: 3px;
+}
+
+.padding-exercise-3 {
+    padding: 3px;
+}
+
+div.exercise-3 {
+    height: 100px;
+}
