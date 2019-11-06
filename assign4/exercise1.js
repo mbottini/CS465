@@ -16,3 +16,5 @@ function range(start, end) {
 function fizzbuzzPrintRange(start, end) {
 	range(start, end).map(fizzbuzz).forEach(elem => console.log(elem));
 }
+
+fizzbuzzPrintRange(0, 101)

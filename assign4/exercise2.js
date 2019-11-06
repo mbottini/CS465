@@ -14,3 +14,6 @@ function reverseNumArithmeticHelper(num, acc) {
 		acc :
 		reverseNumArithmeticHelper(Math.floor(num / 10), acc * 10 + num % 10);
 }
+
+let num = 231756;
+console.log(`input: ${num}\noutput: ${reverseNum(num)}`);
