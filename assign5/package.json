@@ -1,0 +1,15 @@
+{
+  "name": "assign5",
+  "version": "1.0.0",
+  "description": "Assignment 5 - Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Bottini",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
