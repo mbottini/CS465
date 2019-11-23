@@ -11,3 +11,8 @@
 h1.helvetica-text {
     text-align: center;
 }
+
+.container {
+    margin: auto;
+    max-width: 600px;
+}
